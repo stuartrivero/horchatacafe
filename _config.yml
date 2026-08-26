@@ -1,0 +1,15 @@
+title: Horchata Cafe
+description: Sweet cinnamon!
+lang: en-GB
+url: ""            # e.g. https://<username>.github.io
+baseurl: ""        # e.g. /horchata-cafe if the repo is not <username>.github.io
+
+permalink: /:year/:month/:title/
+timezone: Europe/London
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
