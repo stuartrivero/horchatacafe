@@ -1,8 +1,8 @@
 title: Horchata Cafe
 description: Sweet cinnamon!
 lang: en-GB
-url: ""            # e.g. https://<username>.github.io
-baseurl: ""        # e.g. /horchata-cafe if the repo is not <username>.github.io
+url: "https://stuartrivero.github.io"
+baseurl: "/horchatacafe"
 
 permalink: /:year/:month/:title/
 timezone: Europe/London

@@ -12,10 +12,18 @@ Sweet cinnamon! A food blog, migrated from WordPress to Jekyll + GitHub Pages.
 
 ## Publishing on GitHub Pages
 
-1. Create a repository on GitHub and push this folder to it.
-2. In the repo: **Settings → Pages → Source: Deploy from a branch**, branch `main`, folder `/ (root)`.
-3. The site appears at `https://<username>.github.io/<repo>/` a minute or two later.
-4. If the repo is NOT named `<username>.github.io`, set `baseurl: /<repo>` in `_config.yml`.
+The repo is https://github.com/stuartrivero/horchatacafe and `_config.yml` is already set for it.
+
+1. Push this folder to the repo (see below).
+2. On GitHub: **Settings → Pages → Source: Deploy from a branch**, branch `main`, folder `/ (root)`.
+3. The site appears at **https://stuartrivero.github.io/horchatacafe/** a minute or two later.
+
+To push from this folder:
+
+```sh
+git remote add origin https://github.com/stuartrivero/horchatacafe.git
+git push -u origin main
+```
 
 ## Writing a new post
 
